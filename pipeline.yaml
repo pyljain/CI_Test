@@ -1,0 +1,5 @@
+tasks:
+- image: golang:1.18
+  script: go test ./...
+- image: golang:1.18
+  script: go build main.go

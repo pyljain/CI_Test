@@ -1,0 +1,9 @@
+version: v1
+
+frontend:
+  image: nginx:latest
+  name: frontend
+
+backend:
+  image: nodejs:latest
+  name: backend
